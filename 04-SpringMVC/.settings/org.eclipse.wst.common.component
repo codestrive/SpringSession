@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="04-SpringMVC">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/test/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <dependent-module archiveName="00-common.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/00-common/00-common">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="001-rewards.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/001-rewards/001-rewards">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="java-output-path" value="/04-SpringMVC/build/classes"/>
+        <property name="context-root" value="04-SpringMVC"/>
+    </wb-module>
+</project-modules>
